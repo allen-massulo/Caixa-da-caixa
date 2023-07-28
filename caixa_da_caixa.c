@@ -30,5 +30,5 @@ int main()
     valor = valor % 1;
 
     printf("\nSacando %d notas de 100 reais, %d notas de 50 reais, %d notas de 10 reais, %d notas de 5 reais e %d moedas de 1 real.", cem, cinq, dez, cinco, um);
-    printf("\nSobraram %.2f centavos na conta.")
+    printf("\nSobraram %.2f centavos na conta.", valor);
 }
